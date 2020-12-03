@@ -121,9 +121,9 @@ static EGLint rcGetGLString(EGLenum name, void* buffer, EGLint bufferSize) {
   if (name == GL_VERSION)
     result = "OpenGL ES 2.0";
   if (name == GL_VENDOR)
-    result = "Google ("+result+")";
+    result = "Qualcomm";
   if (name == GL_RENDERER)
-    result = "Android Emulator OpenGL ES ("+result+")";
+    result = "Adreno (TM) 618";
   if (name == GL_SHADING_LANGUAGE_VERSION)
     result = "OpenGL ES GLSL ES 2.0";
   else if (name == GL_EXTENSIONS) {
